@@ -1,0 +1,17 @@
+{
+  "name": "immortal-knight-pvp-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Immortal Knight - 1v1 online PvP WebSocket server (server-authoritative)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/net-test.js && node test/fuzz.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
